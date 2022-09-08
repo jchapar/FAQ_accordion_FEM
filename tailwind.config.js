@@ -15,6 +15,9 @@ module.exports = {
       fontFamily: {
         sans: ['Kumbh Sans', 'sans-serif'],
       },
+      backgroundImage: {
+        'card-pattern': "url('/images/bg-pattern-desktop.svg')",
+      },
     },
   },
   plugins: [],

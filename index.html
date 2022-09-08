@@ -12,18 +12,18 @@
   </head>
   <body class="flex items-center justify-center h-screen w-screen bg-gradient-to-b from-softViolet to-softBlue font-sans overflow-hidden">
     <!-- Main Card -->
-    <main class="bg-white rounded-xl shadow-xl w-[330px] lg:w-[930px] p-4 lg:grid grid-cols-2 gap-4 justify-items-start content-center lg:relative lg:p-8 lg:py-16">
+    <main class="bg-white rounded-xl shadow-xl w-[330px] lg:w-[930px] p-4 lg:grid grid-cols-2 gap-4 justify-items-start content-center lg:relative lg:p-8 lg:py-16 lg:pl-0">
       <!-- Mobile Image -->
       <div class="img-container relative lg:hidden">
         <img src="images/illustration-woman-online-mobile.svg" alt="Accordion Image" class="absolute -top-40" />
         <img src="images/bg-pattern-mobile.svg" alt="Accordion Image Shadow" class="absolute -top-30 right-8" />
       </div>
       <!-- Desktop Image -->
-      <div class="img-container hidden lg:inline-block">
-        <img src="images/illustration-woman-online-desktop.svg" alt="Accordion Image" class="absolute -left-32" />
-        <img src="images/bg-pattern-desktop.svg" alt="Accordion Image Shadow" class="absolute -left-36 -top-10 w-[500px]" />
-        <img src="images/illustration-box-desktop.svg" alt="Accordion Image Shadow" class="absolute -left-32 bottom-32 w-[150px]" />
+      <div class="img-container hidden lg:block overflow-hidden bg-card-pattern bg-no-repeat bg-contain bg-[top_right_5rem]">
+        <img src="images/illustration-woman-online-desktop.svg" alt="Accordion Image" class="-translate-x-[4.5rem]" />
+        <!-- <img src="images/bg-pattern-desktop.svg" alt="Accordion Image Shadow" class="absolute -translate-x-[35rem] -translate-y-[42rem]" /> -->
       </div>
+      <img src="images/illustration-box-desktop.svg" alt="Accordion Image Shadow" class="hidden lg:block absolute translate-y-[12rem] -translate-x-[5.9rem] z-10" />
 
       <!-- Accordion -->
       <div class="accordion-container">
